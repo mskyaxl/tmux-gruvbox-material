@@ -23,7 +23,7 @@ main() {
   theme=$(get_option "$THEME_OPTION" "$DEFAULT_THEME")
   local contrast
   contrast=$(get_option "$CONTRAST_OPTION" "$DEFAULT_CONTRAST")
-  tmux source-file "$CURRENT_DIR/${theme}-${contrast}.conf"
+  tmux source-file "$CURRENT_DIR/${theme}-${contrast}.tmuxtheme"
 }
 
 main
